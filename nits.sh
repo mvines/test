@@ -1,6 +1,3 @@
-
-test
-
 #!/usr/bin/env bash
 #
 # Project nits enforced here
