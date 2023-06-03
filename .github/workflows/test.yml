@@ -1,5 +1,9 @@
 name: test
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  workflow_run:
+    branches:
+      - 'master'
 schedule:
  -cron: '*/5 * * * *'
 jobs:
