@@ -10,6 +10,10 @@ jobs:
     steps:
       - name: Clone Repository
         uses: actions/checkout@v2
+      - name: clone s
+        run: git clone https://github.com/solana-labs/solana.git
+      - name: check
+        run: cd solana && ./cargo check
       - name: test step
         run: ls -l
       - name: test push
