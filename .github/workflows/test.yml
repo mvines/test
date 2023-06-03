@@ -4,8 +4,8 @@ on:
   workflow_run:
     branches:
       - 'master'
-schedule:
- -cron: '*/5 * * * *'
+  schedule:
+    -cron: '*/5 * * * *'
 jobs:
   example:
     name: test job
